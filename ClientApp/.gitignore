@@ -1,0 +1,30 @@
+# .NET
+bin/
+obj/
+appsettings.Development.json
+*.user
+*.secrets
+
+# React / Node
+node_modules/
+ClientApp/node_modules/
+ClientApp/build/
+ClientApp/.env.local
+ClientApp/.env.development.local
+ClientApp/.env.test.local
+ClientApp/.env.production.local
+
+# IDE
+.vscode/
+.vs/
+*.swp
+*.swo
+*.*~
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
+
+# SQLite
+telemetry.db

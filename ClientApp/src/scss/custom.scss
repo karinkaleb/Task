@@ -1,0 +1,22 @@
+// Стили для страницы
+html, body {
+  background-color: #f4f4f4; // Светло-серый фон для всей страницы
+  margin: 0; // Убираем отступы по умолчанию
+  padding: 0; 
+  min-height: 100%; // Растяжение на всю высоту
+}
+
+#root {
+  min-height: 100vh; // Элементы занимают всю высоту окна
+  display: flex;
+  flex-direction: column; // Элементы располагаются сверху вниз
+}
+
+.MuiContainer-root { 
+  background-color: #ffffff; // Белый фон
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); // Тень для объёма
+  border-radius: 12px; // Скругление углов
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 24px 24px 74px 24px !important; // Нижний отступ увеличен
+}
